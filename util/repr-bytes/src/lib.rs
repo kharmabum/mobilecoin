@@ -60,8 +60,8 @@ pub trait ReprBytes: Sized {
 /// Error that indicates that we got a different number of bytes than expected
 #[derive(Debug)]
 pub struct LengthMismatch {
-    expected: usize,
-    found: usize,
+    pub expected: usize,
+    pub found: usize,
 }
 
 impl Display for LengthMismatch {

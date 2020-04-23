@@ -2146,6 +2146,7 @@ dependencies = [
  "aead 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "aes-gcm 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "blake2 0.8.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "digest 0.8.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "failure 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "hkdf 0.8.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "mc-crypto-keys 0.1.5-alpha-1",
@@ -2193,6 +2194,7 @@ dependencies = [
  "hex_fmt 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "mc-crypto-digestible 0.1.5-alpha-1",
  "mc-util-from-random 0.1.0",
+ "mc-util-repr-bytes 0.1.0",
  "mc-util-serial 0.1.5-alpha-1",
  "mc-util-test-helper 0.1.5-alpha-1",
  "pem 0.6.1 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -2206,7 +2208,7 @@ dependencies = [
  "signature 1.0.0-pre.5 (registry+https://github.com/rust-lang/crates.io-index)",
  "tempdir 0.3.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "x25519-dalek 0.6.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "zeroize 0.10.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "zeroize 1.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
@@ -2235,6 +2237,7 @@ dependencies = [
  "hkdf 0.8.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "mc-crypto-keys 0.1.5-alpha-1",
  "mc-util-from-random 0.1.0",
+ "mc-util-repr-bytes 0.1.0",
  "rand_core 0.5.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "rand_hc 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "secrecy 0.4.1 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -2638,6 +2641,7 @@ dependencies = [
  "mc-ledger-db 0.1.5-alpha-1",
  "mc-transaction-core-test-utils 0.1.5-alpha-1",
  "mc-util-from-random 0.1.0",
+ "mc-util-repr-bytes 0.1.0",
  "mc-util-serial 0.1.5-alpha-1",
  "mc-util-test-helper 0.1.5-alpha-1",
  "merlin 2.0.0 (registry+https://github.com/rust-lang/crates.io-index)",

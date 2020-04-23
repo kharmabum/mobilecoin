@@ -393,7 +393,6 @@ mod tests {
     use alloc::vec::Vec;
     use mc_crypto_keys::RistrettoPublic;
     use mc_util_from_random::FromRandom;
-    use mc_util_serial::ReprBytes32;
     use prost::Message;
     use rand::{rngs::StdRng, SeedableRng};
 

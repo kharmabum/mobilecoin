@@ -9,7 +9,7 @@ use blake2::{Blake2b, Digest};
 use curve25519_dalek::ristretto::RistrettoPoint;
 use mc_crypto_digestible::Digestible;
 use mc_crypto_keys::{CompressedRistrettoPublic, RistrettoPrivate, RistrettoPublic};
-use mc_util_serial::{prost::Message, ReprBytes32};
+use prost::Message;
 use rand_core::{CryptoRng, RngCore};
 use serde::{Deserialize, Serialize};
 

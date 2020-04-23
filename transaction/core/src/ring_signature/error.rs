@@ -59,6 +59,12 @@ impl From<mc_util_serial::LengthMismatch32> for Error {
     }
 }
 
+impl From<mc_util_repr_bytes::LengthMismatch> for Error {
+    fn from(src: mc_util_repr_bytes::LengthMismatch) -> Self {
+        Error::LengthMismatch(src.found, src.expected)
+    }
+}
+
 impl From<mc_crypto_keys::KeyError> for Error {
     fn from(_src: KeyError) -> Self {
         Self::KeyError

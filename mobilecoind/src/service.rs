@@ -31,7 +31,6 @@ use mc_transaction_core::{
 use mc_transaction_std::identity::RootIdentity;
 use mc_util_b58_payloads::payloads::{RequestPayload, TransferPayload};
 use mc_util_grpc::{rpc_internal_error, rpc_logger, send_result, BuildInfoService};
-use mc_util_serial::ReprBytes32;
 use protobuf::RepeatedField;
 use std::{convert::TryFrom, sync::Arc};
 
